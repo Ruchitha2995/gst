@@ -1,0 +1,231 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+.menu .nav-links li{
+    list-style:none;
+}
+
+/* Hero section */
+.hero{
+    padding:50px 100px;
+    background-image:url(background.jpg);
+    width:100%;
+    height:820px;
+    background-size:cover;
+    border-bottom:5px solid yellow;
+}
+
+.hero .menu .nav-links{
+   display:flex;
+   gap:30px;
+}
+.menu .nav-links li a{
+    text-decoration:none;
+    color:whitesmoke;
+    font-size:30px;
+    font-weight:600;
+    font-family: 'Poppins', sans-serif;
+}
+.menu .nav-links li img{
+    width:110px;
+    height:110px;
+    border-radius:50%;
+    position:relative;
+    left:500px;
+    animation:mymove 2s linear infinite;
+}
+@keyframes mymove{
+    100%{
+        transform:rotate(360deg);
+    }
+}
+.hero .barbeque{
+    margin-top:30px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:30px;
+}
+.barbeque h1{
+    color:yellow;
+    font-size:30px;
+    font-family: 'Poppins', sans-serif;
+}
+.barbeque img{
+    width:350px;
+    height:350px;
+    border-radius:50%;
+    animation:mymove 2s linear infinite;
+}
+@keyframes mymove{
+    100%{
+        transform:rotate(360deg);
+    }
+}
+.hero .paragraph{
+    padding-top:35px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:30px;
+}
+.hero .paragraph h4{
+    color:#FFBF00;
+    font-size:25px;
+    font-weight:700;
+    font-family: 'Poppins', sans-serif;
+}
+.hero .paragraph p{
+    color:whitesmoke;
+    font-size:25px;
+    font-weight:700;
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+}
+/* Details Section */
+.details{
+    padding-top:40px;
+    width:100%;
+    background-color:darkred;
+    border-bottom:5px solid yellow;
+}
+.details h1{
+    color:yellow;
+    font-size:30px;
+    font-weight:700;
+    text-align:center;
+    font-family: 'Poppins', sans-serif;
+}
+.details .person{
+    margin:35px,auto;
+    padding-top:35px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    /* justify-content: space-evenly; */
+}
+.person label{
+    font-size:25px;
+    font-weight:700;
+    color:#FFBF00;
+    font-family: 'Poppins', sans-serif;
+}
+.person input{
+    border:none;
+    outline:none;
+    align-items:center;
+    width:400px;
+    height:55px;
+    margin-bottom:35px;
+    margin-left:35px;
+    font-size:15px;
+    font-weight:600;
+    font-family: 'Poppins', sans-serif;
+}
+.button{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.button button{
+    width:600px;
+    height:50px;
+    border:none;
+    outline:none;
+    border-radius:5px;
+    align-content:center;
+    font-size:25px;
+    font-weight:600;
+    background-color:#FFBF00;
+    color:darkred;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom:100px;
+}
+.button button:hover{
+    background-color:blue;
+    color:whitesmoke;
+}
+
+/* Contact Section */
+.contact{
+    height:300px;
+    padding-top:50px;
+    background-color:darkred;
+}
+.contact .all{
+    display:flex;
+    align-items:center;
+    gap:50px;
+}
+.contact h3{
+    font-size:25px;
+    font-weight:600;
+    text-align:center;
+    color:yellow;
+    font-family: 'Poppins', sans-serif;
+}
+.informaion{
+    padding-top:30px;
+    padding-left:70px;
+    display:flex;
+    align-items:center;
+    gap:50px;
+}
+.informaion img{
+    width:150px;
+    height:150px;
+    border-radius:50%;
+    animation:mymove 2s linear infinite;
+}
+@keyframes mymove{
+    100%{
+        transform:rotate(360deg);
+    }
+}
+.details1{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:25px;
+}
+.details1 p{
+    font-size:15px;
+    font-weight:600;
+    text-align:center;
+    color:yellow;
+    font-family: 'Poppins', sans-serif;
+}
+.details2{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    gap:25px;
+}
+.details2 p{
+    font-size:15px;
+    font-weight:600;
+    text-align:center;
+    color:yellow;
+    font-family: 'Poppins', sans-serif;
+}
+.contact .image{
+    margin-left:400px;
+    display: flex;
+    flex-direction:row;
+    align-items:center;
+    gap:40px;
+}
+.contact .image img{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    animation:mymove 4s linear infinite;
+}
+@keyframes mymove{
+    100%{
+        transform:rotate(360deg);
+    }
+}
